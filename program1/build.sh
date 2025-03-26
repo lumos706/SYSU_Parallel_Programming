@@ -1,0 +1,26 @@
+mpic++ -o mpi_matmul mpi_matmul.cpp -O3 -std=c++17
+mpirun --oversubscribe -np 1 ./mpi_matmul 128 128 128
+mpirun --oversubscribe -np 2 ./mpi_matmul 128 128 128
+mpirun --oversubscribe -np 4 ./mpi_matmul 128 128 128
+mpirun --oversubscribe -np 8 ./mpi_matmul 128 128 128
+mpirun --oversubscribe -np 16 ./mpi_matmul 128 128 128
+mpirun --oversubscribe -np 1 ./mpi_matmul 256 256 256
+mpirun --oversubscribe -np 2 ./mpi_matmul 256 256 256
+mpirun --oversubscribe -np 4 ./mpi_matmul 256 256 256
+mpirun --oversubscribe -np 8 ./mpi_matmul 256 256 256
+mpirun --oversubscribe -np 16 ./mpi_matmul 256 256 256
+mpirun --oversubscribe -np 1 ./mpi_matmul 512 512 512
+mpirun --oversubscribe -np 2 ./mpi_matmul 512 512 512
+mpirun --oversubscribe -np 4 ./mpi_matmul 512 512 512
+mpirun --oversubscribe -np 8 ./mpi_matmul 512 512 512
+mpirun --oversubscribe -np 16 ./mpi_matmul 512 512 512
+mpirun --oversubscribe -np 1 ./mpi_matmul 1024 1024 1024
+mpirun --oversubscribe -np 2 ./mpi_matmul 1024 1024 1024
+mpirun --oversubscribe -np 4 ./mpi_matmul 1024 1024 1024
+mpirun --oversubscribe -np 8 ./mpi_matmul 1024 1024 1024
+mpirun --oversubscribe -np 16 ./mpi_matmul 1024 1024 1024
+mpirun --oversubscribe -np 1 ./mpi_matmul 2048 2048 2048
+mpirun --oversubscribe -np 2 ./mpi_matmul 2048 2048 2048
+mpirun --oversubscribe -np 4 ./mpi_matmul 2048 2048 2048
+mpirun --oversubscribe -np 8 ./mpi_matmul 2048 2048 2048
+mpirun --oversubscribe -np 16 ./mpi_matmul 2048 2048 2048
