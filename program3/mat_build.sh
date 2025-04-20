@@ -1,0 +1,26 @@
+g++ -pthread matrix_mult.cpp -o matrix_mult -O3 -std=c++17
+./matrix_mult 128 1
+./matrix_mult 128 2
+./matrix_mult 128 4
+./matrix_mult 128 8
+./matrix_mult 128 16
+./matrix_mult 256 1
+./matrix_mult 256 2
+./matrix_mult 256 4
+./matrix_mult 256 8
+./matrix_mult 256 16
+./matrix_mult 512 1
+./matrix_mult 512 2
+./matrix_mult 512 4
+./matrix_mult 512 8
+./matrix_mult 512 16
+./matrix_mult 1024 1
+./matrix_mult 1024 2
+./matrix_mult 1024 4
+./matrix_mult 1024 8
+./matrix_mult 1024 16
+./matrix_mult 2048 1
+./matrix_mult 2048 2
+./matrix_mult 2048 4
+./matrix_mult 2048 8
+./matrix_mult 2048 16
